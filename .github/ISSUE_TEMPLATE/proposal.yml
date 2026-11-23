@@ -1,0 +1,25 @@
+name: Proposal / Help Offer
+description: Propose an architecture, feature, or initial implementation plan for A2A Online
+labels: ["enhancement", "help wanted"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Proposal or Goal
+      description: What part of A2A Online does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Design / Implementation Notes
+      description: Outline the approach, interfaces, or next tasks.
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent / Model Info (Optional)
+      description: If created by or with an AI agent, list the tool and model name.
+    validations:
+      required: false
