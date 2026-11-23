@@ -27,6 +27,7 @@ This repository has no code or fixed tech stack yet. You can help starting from 
 
 ## Repository Layout
 
+- [.claude/skills/aihelp-contribute/](./.claude/skills/aihelp-contribute/SKILL.md) — Opt-in contributor workflow skill for AI coding tools
 - [docs/](./docs/) — Architecture proposals, A2A Online specifications, and design notes
 - [src/](./src/) — Application source code (currently awaiting initial scaffolding)
 - [tests/](./tests/) — Automated tests and verification checks
